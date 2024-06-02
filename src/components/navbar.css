@@ -62,3 +62,39 @@ justify-content: space-between;
 .download-button:hover {
     background-color: #333;
 }
+@media (max-width: 767px) {
+    .navbar-brand {
+        gap: 20px;
+        /* Adjust spacing between elements */
+        width: auto;
+        /* Allow the navbar to adjust its width */
+    }
+
+    .navbar-links {
+        display: none;
+        /* Hide the links */
+    }
+}
+
+/* For screens smaller than 480px (mobile phones) */
+@media (max-width: 479px) {
+    .navbar{
+        width: 342%;
+    }
+    .navbar-brand {
+        gap: 10px;
+
+        
+    }
+
+    .navbar-links {
+        display: none;
+        
+    }
+
+    .download-button {
+        font-size: 14px;
+    
+    }
+    
+}
