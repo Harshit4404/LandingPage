@@ -1,6 +1,7 @@
 # LandingPage
 
 Welcome to LandingPage! This project is made by using REACT + VITE.
+Ensured that the design is responsive and looks good on both desktop and mobile devices.
 
 ## Prerequisites
 
