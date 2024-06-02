@@ -1,0 +1,230 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  cursor: default;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 0 1rem;
+  cursor: default;
+}
+
+.nav-item:hover {
+  color: #e63946;
+}
+
+.download-button {
+  padding: 0.5rem 1rem;
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #d62828;
+}
+
+.body {
+  text-align: center;
+  padding: 2rem 4rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.hero-content {
+  max-width: 600px;
+  text-align: left;
+}
+
+.hero-title {
+  font-size: 3rem;
+  color: #000;
+}
+
+.hero-subtitle {
+  margin: 1rem 0;
+  color: #666;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.hero-button {
+  padding: 0.5rem 1rem;
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.hero-button.secondary {
+  background-color: transparent;
+  color: #e63946;
+  border: 2px solid #e63946;
+}
+
+.hero-button:hover {
+  background-color: #d62828;
+}
+
+.hero-button.secondary:hover {
+  background-color: #e63946;
+  color: #fff;
+}
+
+.hero-image img {
+  max-width: 500px;
+  height: auto;
+}
+
+.ribbon {
+  background-color: #f9f9f9;
+  padding: 2rem;
+}
+
+.ribbon img {
+  max-width: 100%;
+}
+
+.features {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+}
+
+.features h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature-item {
+  max-width: 200px;
+  text-align: center;
+}
+
+.feature-item img {
+  max-width: 100px;
+  margin-bottom: 1rem;
+}
+
+.feature-item p {
+  color: #666;
+}
+
+.pricing {
+  padding: 4rem 2rem;
+  background-color: #fff;
+}
+
+.pricing h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pricing-card {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.pricing-card p {
+  font-size: 2rem;
+  color: #e63946;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.pricing-card li {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.pricing-card button {
+  padding: 0.5rem 1rem;
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pricing-card button:hover {
+  background-color: #d62828;
+}
+
+.about {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.about p {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #666;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}

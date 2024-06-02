@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.navbar-brand {
+    display: flex;
+    gap: 100px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 117px;
+    height: 34.41px;
+    top: 53px;
+    left: 174px;
+    font-weight: bold;
+    color: #ff5c5c;
+}
+.links{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+    width: 89px;
+
+    height: 26px;
+    size: 20px;
+    
+}
+.navbar-links {
+   
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    font-size: 20px;
+    
+    color: black;
+    font-weight: 500;
+    
+}
+
+.download-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    width: 180px;
+    height: 60px;
+   
+}
+
+.download-button:hover {
+    background-color: #333;
+}
